@@ -1,10 +1,41 @@
+# Project BetterBatch
+
 Project BetterBatch is a collection of useful batch plugins.
 
-The batch plugins:
+## The batch plugins:
 
-1. mconst.bat - Math constants for batch, view code for more details
-2. math.bat - Floating-point operations in batch, requires Python interpreter
-3. svtocmd.bat - Allows you to set a variable to the output of a command.
+1. MCONST plugin - mconst.bat - Math constants for batch, view code for more details
+2. MATH plugin - math.bat - Floating-point operations in batch, requires Python interpreter
+3. SVTOCMD plugin - svtocmd.bat - Allows you to set a variable to the output of a command.
+      
+## How to use plugins
+
+In order to use these as commands (without file path and .bat extension) you need to either add the files to a directory that is included in %PATH% or add the current directory to %PATH%.
+
+### MCONST Plugin
+
+Sets the following variables.
+
+       mconst.pi=3.141592653589793
+       mconst.phi=1.61803398875
+       mconst.e=2.718281828459045
+       mconst.r2=1.41421356237
+       mconst.r3=1.73205080757
+       mconst.tau=6.28318530718
+
+ ### MATH Plugin
+
+ Adds floating-point support to batch. **Requires Python interpreter**
+
+      Usage: math [expression]
+      e.g: math 1.56+55.753
+
+### SVTOCMD Plugin
+
+Allows you to set a variable to the output of a command. Can be used with MATH plugin.
+
       Usage: svtocmd [variable] = "[command]"
+      e.g: svtocmd val = "echo hi"
+      Example of use with MATH plugin: svtocmd num = "math 345.7"
 
-More batch plugins will be added soon. 
+More plugins and scripts will be added soon.
