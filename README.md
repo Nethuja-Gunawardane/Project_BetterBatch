@@ -16,16 +16,19 @@ In order to use these as commands (without file path and .bat extension) you nee
 
 Sets the following variables.
 
-       mconst.pi=3.141592653589793
-       mconst.phi=1.61803398875
-       mconst.e=2.718281828459045
-       mconst.r2=1.41421356237
-       mconst.r3=1.73205080757
-       mconst.tau=6.28318530718
+       mconst.pi = 3.141592653589793 = pi
+       mconst.phi = 1.61803398875 = phi (golden ratio)
+       mconst.e = 2.718281828459045 = e (Euler's number)
+       mconst.r2 = 1.41421356237 = square root of 2
+       mconst.r3 = 1.73205080757 = square root of 3
+       mconst.tau = 6.28318530718 = tau (2*pi)
+       
+            *More constants will be made in the future.*
+      
 
  ### MATH Plugin
 
- Adds floating-point support to batch. **Requires Python interpreter**
+ Adds floating-point support to batch. **Requires Python interpreter.**
 
       Usage: math [expression]
       e.g: math 1.56+55.753
@@ -38,4 +41,4 @@ Allows you to set a variable to the output of a command. Can be used with MATH p
       e.g: svtocmd val = "echo hi"
       Example of use with MATH plugin: svtocmd num = "math 345.7"
 
-More plugins and scripts will be added soon.
+*More plugins and scripts will be added soon.*
