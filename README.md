@@ -30,12 +30,16 @@ Sets the following variables.
 
  Adds floating-point support to batch. **Requires Python interpreter.**
 
-      Usage: math [expression]
+ ![image](https://github.com/user-attachments/assets/1e4c036c-67d3-4bb4-b0fd-701c9c0d8a8a)
+
+ Usage: math [expression]
       e.g: math 1.56+55.753
 
 ### SVTOCMD Plugin
 
 Allows you to set a variable to the output of a command. Can be used with MATH plugin.
+
+![image](https://github.com/user-attachments/assets/be387172-da16-412e-aa8b-14a39ceaae8d)
 
       Usage: svtocmd [variable] = "[command]"
       e.g: svtocmd val = "echo hi"
