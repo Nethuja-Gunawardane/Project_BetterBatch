@@ -2,7 +2,7 @@
 
 Project BetterBatch is a collection of useful batch plugins.
 
-## Current batch plugins:
+## Current batch plugins
 
 1. MCONST plugin - mconst.bat - Math constants for batch, view code for more details
 2. MATH plugin - math.bat - Floating-point operations in batch, requires Python interpreter
