@@ -30,9 +30,9 @@ Sets the following variables.
 
  Adds floating-point support to batch. **Requires Python interpreter.**
 
- ![image](https://github.com/user-attachments/assets/1e4c036c-67d3-4bb4-b0fd-701c9c0d8a8a)
+ ![image](https://github.com/user-attachments/assets/dd3bf142-3d36-4328-b345-160c7a3efe6c)
 
- Usage: math [expression]
+      Usage: math [expression]
       e.g: math 1.56+55.753
 
 ### SVTOCMD Plugin
