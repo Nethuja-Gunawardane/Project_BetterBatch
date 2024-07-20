@@ -24,16 +24,19 @@ Sets the following variables.
        mconst.tau = 6.28318530718 = tau (2*pi)
        
             *More constants will be made in the future.*
-      
 
- ### MATH Plugin
+#### Usage
+
+call mconst
+      
+### MATH Plugin
 
  Adds floating-point support to batch. **Requires Python interpreter.**
 
- ![image](https://github.com/user-attachments/assets/dd3bf142-3d36-4328-b345-160c7a3efe6c)
+ ![image](https://github.com/user-attachments/assets/11cb552e-efe2-4ce5-abc1-d55100ae21fd)
 
-      Usage: math [expression]
-      e.g: math 1.56+55.753
+      Usage:call math [expression]
+      e.g: call math 1.56+55.753
 
 ### SVTOCMD Plugin
 
