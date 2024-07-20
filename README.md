@@ -41,7 +41,7 @@ Allows you to set a variable to the output of a command. Can be used with MATH p
 
 ![image](https://github.com/user-attachments/assets/1354591e-e834-4b8f-9201-1b12ad79a95a)
 
-       Usage: call svtocmd [variable] = "[command]"
+      Usage: call svtocmd [variable] = "[command]"
       e.g: call svtocmd val = "echo hi"
       Example of use with MATH plugin: call svtocmd num = "math 345.7"
 
