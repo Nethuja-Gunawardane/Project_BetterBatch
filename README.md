@@ -27,7 +27,7 @@ Sets the following variables.
 
 #### Usage
 
-call mconst
+```call mconst```
       
 ### MATH Plugin
 
