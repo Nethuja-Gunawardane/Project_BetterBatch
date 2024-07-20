@@ -7,4 +7,4 @@ echo print(%math%) > %temp%/mathbatch.py
 ::Make python file
 
 python %temp%/mathbatch.py
-::Display output
+::Display output using Python Interpreter
