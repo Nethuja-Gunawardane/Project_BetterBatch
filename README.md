@@ -40,12 +40,23 @@ Sets the following variables.
 
 ### SVTOCMD Plugin
 
-Allows you to set a variable to the output of a command. Can be used with MATH plugin.
+Allows you to set a variable to the output of a command. Can be used with MATH plugin and TRIG plugin.
 
 ![image](https://github.com/user-attachments/assets/1354591e-e834-4b8f-9201-1b12ad79a95a)
 
       Usage: call svtocmd [variable] = "[command]"
       e.g: call svtocmd val = "echo hi"
       Example of use with MATH plugin: call svtocmd num = "math 345.7"
+      Example of use with TRIG plugin: call svtocmd num = "trig sin 45 deg"
+
+### TRIG plugin
+
+Use trigonometric functions in CMD and batch. **Requires Python interpreter.**
+
+![image](https://github.com/user-attachments/assets/2a0af25f-e074-4223-a351-44197fb7f978)
+
+      Usage: call trig [function] [value] [deg/rad]
+      e.g. call trig sin 60 deg
+
 
 *More plugins and scripts will be added soon.*
