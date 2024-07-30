@@ -3,6 +3,7 @@
     set "func=%1"
     set "value=%2"
     set "angle=%3"
+    ::Set variables to parameters
 
         if %angle%==deg (
 
@@ -13,6 +14,8 @@
             python %temp%\trig.txt
         )
 
+        ::Degrees
+
         if %angle%==rad (
 
             echo import math > %temp%\trig.txt
@@ -20,4 +23,6 @@
 
             python %temp%\trig.txt
         )
+
+        ::Radians
         
