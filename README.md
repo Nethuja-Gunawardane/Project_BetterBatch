@@ -23,7 +23,7 @@ Sets the following variables.
        mconst.r3 = 1.73205080757 = square root of 3
        mconst.tau = 6.28318530718 = tau (2*pi)
        
-            *More constants will be made in the future.*
+*More constants will be made in the future.*
 
 #### Usage
 
@@ -57,6 +57,8 @@ Use trigonometric functions in CMD and batch. **Requires Python interpreter.**
 
       Usage: call trig [function] [value] [deg/rad]
       e.g. call trig sin 60 deg
+
+**Please note that for the trigonometric function names, the list that you can get using Python:```help(math)``` should be used.**
 
 
 *More plugins and scripts will be added soon.*
