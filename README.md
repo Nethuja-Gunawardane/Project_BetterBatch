@@ -7,6 +7,7 @@ Project BetterBatch is a collection of useful batch plugins.
 1. MCONST plugin - mconst.bat - Math constants for batch, view code for more details
 2. MATH plugin - math.bat - Floating-point operations in batch, requires Python interpreter
 3. SVTOCMD plugin - svtocmd.bat - Allows you to set a variable to the output of a command.
+4. TRIG plugin - trig.bat - Trigonometric functions in batch
       
 ## How to use plugins
 
