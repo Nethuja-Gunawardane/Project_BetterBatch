@@ -61,5 +61,14 @@ Use trigonometric functions in CMD and batch. **Requires Python interpreter.**
 
 **Please note that for the trigonometric function names, the list that you can get using Python:```help(math)``` should be used.**
 
+### EXP plugin
+
+Use exponents in CMD and batch. **Requires Python interpreter.**
+
+![image](https://github.com/user-attachments/assets/d069a09d-cda4-49a9-8c49-4145d5859d14)
+
+      Usage: call exp [number] [exponent]
+      e.g. call exp 3 4
+
 
 *More plugins and scripts will be added soon.*
